@@ -7,6 +7,11 @@ html {
       padding-top:0;
   }
   
+  html,body {
+    margin:0;
+    padding:0;
+}
+  
   header {
      background:#6A4C36; 
      color: #fff;
