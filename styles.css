@@ -1,137 +1,137 @@
 html {
-    /* Setting a base font size of 10px give us easier rem calculations
-         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-       */
-    font-size: 10px;
-      margin-top:0;
-      padding-top:0;
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+    margin-top:0;
+    padding-top:0;
+}
+
+html,body {
+  margin:0;
+  padding:0;
+}
+
+header {
+   background:#6A4C36; 
+   color: #fff;
+   position: fixed;
+   width:100%;
   }
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 100%;
+  text-align:center;
+  background:#6A4C36; 
+   margin-top:0;
+    padding-top:0;
   
-  html,body {
-    margin:0;
-    padding:0;
+}
+#main {
+  margin: 0px 0px;
+  padding: 140px;
+  border-radius: 0px;
+  background: White;
+
 }
   
-  header {
-     background:#6A4C36; 
-     color: #fff;
-     position: fixed;
-     width:100%;
-    }
-  
-  body {
-    font-family: 'Merriweather', serif;
-    font-size: 1.6rem;
-    line-height: 1;
-    width: 100%;
-    text-align:center;
-    background:#6A4C36; 
-     margin-top:0;
-      padding-top:0;
-    
-  }
+  @media (max-width: 460px) {
   #main {
-    margin: 0px 0px;
-    padding: 140px;
-    border-radius: 0px;
-    background: White;
-  
-  }
-    
-    @media (max-width: 460px) {
-    #main {
-      margin: 0;
-    }
-  
-  #image {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    align-items:center;
-  
-  }
-  
-  #img-div {
-    background: white;
-    padding: 10px;
     margin: 0;
   }
-  
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  align-items:center;
+
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
   #img-caption {
-    margin: 15px 0 5px 0;
+    font-size: 1.4rem;
   }
+}
+
+.tribute-info {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align:center;
+
+  }
+
+}
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+p {
+   font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 10px auto;
+  text-align: center
+}
+p1 {
+  max-width: 550px;
+  text-align: center;
+  color:white;
+}
+
+strong {
+  color:#B9A27F;
   
-  @media (max-width: 460px) {
-    #img-caption {
-      font-size: 1.4rem;
-    }
-  }
-  
-  .tribute-info {
-    width: 100%;
-    font-size: 1.5rem;
-    text-align:center;
-  
-    }
-  
-  }
-  h1 {
-    font-size: 5rem;
-    margin-bottom: 0;
-  }
-  
-  p {
-     font-style: italic;
-    max-width: 700px;
-    margin: 0 auto 10px auto;
-    text-align: center
-  }
-  p1 {
-    max-width: 700px;
-    text-align: center;
-    color:white;
-  }
-  
-  strong {
-    color:#B9A27F;
-    
-  }
-  
-  h2 {
-    font-size: 2rem;
-    padding: 0 100 0 100;
-  }
-  
-  a {
-    color: #477ca7;
-  }
-  
-  a:visited {
-    color: #6C5F51;
-  }
-  
-  ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
-  }
-  
-  li {
-    margin: 16px 0;
-  }
-  
-  blockquote {
-    font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-    text-align: center;
-    color:#B9A27F; 
-  }
-  footer {
-     background:#B9A27F; 
-     color: white;
-     position: fixed;
-     margin: -100 -100 -100 -100;
-     width:100%;
-  }
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 0 100 0 100;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #6C5F51;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  color:#B9A27F; 
+}
+footer {
+   background:#B9A27F; 
+   color: white;
+   position: fixed;
+   width:100%;
+}
+
