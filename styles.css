@@ -11,6 +11,17 @@ html,body {
   margin:0;
   padding:0;
 }
+.container {
+display: flex;
+align-items: center;
+justify-content: center
+}
+
+@media screen and (max-width: 1327px){
+.container {
+  flex-direction:column;
+}
+}
 
 header {
    background:#6A4C36; 
@@ -37,15 +48,11 @@ body {
   background: White;
 
 }
-  
-  @media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
 
 #image {
   max-width: 100%;
-  display: block;
+  display: flex;
+  max-width:100%;
   height: auto;
   align-items:center;
 
@@ -55,6 +62,8 @@ body {
   background: white;
   padding: 10px;
   margin: 0;
+
+  
 }
 
 #img-caption {
@@ -69,12 +78,11 @@ body {
 
 .tribute-info {
   width: 100%;
-  font-size: 1.5rem;
-  text-align:center;
-
-  }
-
+  font-size: 1.6rem;
+  text-align: center;
+  min-width: 300px
 }
+
 h1 {
   font-size: 5rem;
   margin-bottom: 0;
@@ -82,7 +90,7 @@ h1 {
 
 p {
    font-style: italic;
-  max-width: 700px;
+  max-width: 1050px;
   margin: 0 auto 10px auto;
   text-align: center
 }
@@ -123,7 +131,7 @@ li {
 
 blockquote {
   font-style: italic;
-  max-width: 545px;
+  max-width: 1000px;
   margin: 0 auto 50px auto;
   text-align: center;
   color:#B9A27F; 
